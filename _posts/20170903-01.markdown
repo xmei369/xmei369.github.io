@@ -1,1 +1,9 @@
+---
+layout: post
+title:  "Pages test 02"
+date:   2017-09-03 21:21:00
+img: 
+description: renew
+---
+
 renew the articles
