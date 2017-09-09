@@ -2,7 +2,7 @@
 layout: post
 title:  "战利品"
 date:   2017-09-08 9:44:00
-img: 
+img: wenmian.jpg
 description: 温面斩获奶粉。
 ---
 

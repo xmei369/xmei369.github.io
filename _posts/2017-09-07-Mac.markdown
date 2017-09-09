@@ -2,7 +2,7 @@
 layout: post
 title:  "Mac"
 date:   2017-09-07 22:16:00
-img: 
+img: shizhengting.jpg
 description: 学习用苹果电脑。//去市政厅踩点。
 ---
 

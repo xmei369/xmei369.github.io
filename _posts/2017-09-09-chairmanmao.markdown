@@ -2,7 +2,7 @@
 layout: post
 title:  "种葱"
 date:   2017-09-09 19:44:00
-img: 
+img: zhongcong.jpg
 description: 种葱。//敬主席。
 ---
 
