@@ -19,7 +19,7 @@ rmarkdown::render('C:/XinNote/Computer/Linux/Linux系统命令及Shell脚本实�
 
 ---  
 
-## <h1 id='content'>Content{#content}</h1>  
+## <h2 id='content'>Content{#content}</h2>  
 
 + [1.1 Linux的发展历史](#anchor1)  
 + [1.2 Linux的特点](#anchor2)  
@@ -29,7 +29,7 @@ rmarkdown::render('C:/XinNote/Computer/Linux/Linux系统命令及Shell脚本实�
 + [1.6 获得帮助](#anchor6)  
 
 
-## <h1 id='anchor1'>[1.1 Linux的发展历史](#content){#anchor1}</h1>  
+## <h2 id='anchor1'>[1.1 Linux的发展历史](#content){#anchor1}</h2>  
 
 + 读音：Linux ['lɪnəks]；其父：Linus ['laɪnəs]  
 
@@ -47,7 +47,7 @@ GFDL ： GNU自由文档许可证（GNU Free Documentation License ）的缩写�
 `唔-小结：`UNIX (BSD) -> Minix -> Linux (GNU计划、GPL协议)。  
 
 
-## [1.2 Linux的特点](#content){#anchor2}  
+## <h2 id='anchor2'>[1.2 Linux的特点](#content){#anchor2}</h2>  
 
 + 模块化：  
 Linux的内核设计分成5部分：**进程**管理、**内存**管理、进程间**通信**、**虚拟文件系统**、**网络**。（`唔：`大概就是后面几章节的内容。哦，不是。）用户可以根据实际需要，在内核中插入或移走模块。  
@@ -68,7 +68,7 @@ Linux中95%以上的代码都是用**C语言**编写，C是**与机器无关**�
 `唔-小结：`模块化。C语言编写，可移植。  
 
 
-## [1.3 系统安装](#content){#anchor3}  
+## <h2 id='anchor3'>[1.3 系统安装](#content){#anchor3}</h2>  
 
 ### 1.3.1 安装前的规划  
 
@@ -105,7 +105,7 @@ Linux中95%以上的代码都是用**C语言**编写，C是**与机器无关**�
 `唔-小结：`CentOS是将小红帽重编译后的免费改良版。  
 
 
-## [1.4 系统登录](#content){#anchor4}  
+## <h2 id='anchor4'>[1.4 系统登录](#content){#anchor4}</h2>  
 
 ### 1.4.1 第一次登录系统的设置  
 
@@ -178,7 +178,7 @@ rmarkdown::render('C:/XinNote/Computer/Linux/Linux系统命令及Shell脚本实�
 `唔：`（1）要用render转化，knit会停在bash脚本上不动弹；（2）类型可以是'html_document'，这里'all'也只输出html文件，也许是头文件YAML里规定了格式；（3）编码参数要设为UTF-8，默认的是乱码，而且头文件YAML里有中文的话就会报错，没有头文件则直接输出乱码文件；（4）修改后记得保存后再render，然后刷新上次已打开的网页即可查看。  
 
 
-## [1.5 系统启动流程](#content){#anchor5}  
+## <h2 id='anchor5'>[1.5 系统启动流程](#content){#anchor5}</h2>  
 
 ### 1.5.1 系统引导概述  
 
@@ -291,7 +291,7 @@ cat /boot/grub/grub.cfg
 ![系统启动流程](./image/1.5.jpg)  
 
 
-## [1.6 获得帮助](#content){#anchor6}  
+## <h2 id='anchor6'>[1.6 获得帮助](#content){#anchor6}</h2>  
 
 ### 1.6.1 使用man page  
 
