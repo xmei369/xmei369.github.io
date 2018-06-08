@@ -278,7 +278,7 @@ cat /boot/grub/grub.cfg
 `唔-小结：stage1加载stage1_5驱动文件系统，从中读取stage2。initrd是临时文件系统。`  
 
 `唔-1.5总结：如图`  
-![系统启动流程](../assets/image/1.5.jpg)  
+![系统启动流程](./image/1.5.jpg)  
 
 
 ## 1.6 获得帮助  
