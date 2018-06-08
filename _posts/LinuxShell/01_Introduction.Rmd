@@ -19,7 +19,7 @@ rmarkdown::render('C:/XinNote/Computer/Linux/Linux系统命令及Shell脚本实�
 
 ---  
 
-## Content{#content}  
+## <h1 id='content'>Content{#content}</h1>  
 
 + [1.1 Linux的发展历史](#anchor1)  
 + [1.2 Linux的特点](#anchor2)  
