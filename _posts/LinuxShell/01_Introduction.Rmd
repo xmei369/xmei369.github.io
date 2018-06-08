@@ -29,7 +29,7 @@ rmarkdown::render('C:/XinNote/Computer/Linux/Linux系统命令及Shell脚本实�
 + [1.6 获得帮助](#anchor6)  
 
 
-## [1.1 Linux的发展历史](#content){#anchor1}  
+## <id='anchor1'>[1.1 Linux的发展历史](#content){#anchor1}  
 
 + 读音：Linux ['lɪnəks]；其父：Linus ['laɪnəs]  
 
