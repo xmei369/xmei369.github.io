@@ -20,7 +20,7 @@ rmarkdown::render('C:/XinNote/Computer/Linux/Linux系统命令及Shell脚本实�
 + [2.3 切换用户](#anchor3)  
 + [2.4 例行任务管理](#anchor4)  
 
-<h2 id='anchor1'>[2.1 Linux用户和用户组](#content)</h2>  
+## <h2 id='anchor1'>[2.1 Linux用户和用户组](#content)</h2>  
 
 Linux是多用户**分时**系统。  
 `唔`-分时操作系统 (**time-sharing** system)：“分时”是指**多个用户**分享使用同一台计算机（`唔：`“分”是分享share的意思，同时、共时），**多个程序**分时共享硬件和软件资源。**分时操作系统**是指在**一台主机**上连接**多个**带有显示器和键盘的**终端**，同时允许多个用户通过主机的终端，以**交互方式**使用计算机，共享主机中的资源。（`唔-概括：`就是可以让一台主机连接很多人的操作系统。）  
@@ -98,7 +98,7 @@ head -3 /etc/shadow
 `唔-2.1总结：`UID和GID的分类（根，系统，普通）、标识（0，1-499，500-）、查看（ps aux，ls -ln，id，groups，who）、记录文件（passwd，shadow）。  
 
 
-<h2 id='anchor2'>[2.2 Linux账号管理](#content)</h2>  
+## <h2 id='anchor2'>[2.2 Linux账号管理](#content)</h2>  
 
 ### 2.2.1 新增和删除用户  
 
@@ -218,7 +218,7 @@ finger user1 # 显示用户user1的更详细的信息，包括家目录、Shell�
 `唔-2.2总结简化：`前缀user、group；后缀add、del、mod；查看users（点名啦）、who（谁）、w（啥）、finger。  
 
 
-<h2 id='anchor3'>[2.3 切换用户](#content)</h2>  
+## <h2 id='anchor3'>[2.3 切换用户](#content)</h2>  
 
 ### 2.3.1 切换成其他用户  
 su：switch user的意思。  
@@ -268,7 +268,7 @@ visudo
 `唔-2.3总结：`su换身份；su -换身份和环境；sudo用别人身份执行命令。%表示用户组。三个ALL分别是登录地址、其他用户名、命令（前面可加NOPASSWD）。  
 
 
-<h2 id='anchor4'>[2.4 例行任务管理](#content)</h2>  
+## <h2 id='anchor4'>[2.4 例行任务管理](#content)</h2>  
 
 ### 2.4.1 单一时刻执行一次任务：at  
 ```{bash, eval=FALSE}
